@@ -8,11 +8,11 @@ public class MortgageCalc {
         Scanner scanner=new Scanner(System.in);
         double principal=scanner.nextDouble();
        
-         System.out.print("Enter the annual interest rate in %:");
+        System.out.print("Enter the annual interest rate in %:");
         Scanner scanner2=new Scanner(System.in);
         double rate=scanner2.nextDouble();
 
-         System.out.print("Enter the period in years:");
+        System.out.print("Enter the period in years:");
         Scanner scanner3=new Scanner(System.in);
         int years=scanner3.nextInt();
         
